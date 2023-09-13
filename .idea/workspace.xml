@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c0db16d-2685-446a-90a2-1f97b3649941" name="Changes" comment="feat: first commit">
+    <list default="true" id="1c0db16d-2685-446a-90a2-1f97b3649941" name="Changes" comment="feat: Comportamento por parametro">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Teste/Teste01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Comportamento/ComportamentoPorParametroTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Comportamento/ComportamentoPorParametroTest02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,21 +54,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Programacao/01. JAVA/Streams/Streams",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programacao/01. JAVA/Streams/Streams&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Comportamento" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CarMethodReferenceTest01">
+    <configuration name="CarMethodReferenceTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MethodReference.CarMethodReferenceTest01" />
+      <module name="Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MethodReference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComportamentoPorParametroTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -136,6 +152,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CarMethodReferenceTest01" />
       <item itemvalue="Application.ComportamentoPorParametroTest01" />
       <item itemvalue="Application.ComportamentoPorParametroTest02" />
       <item itemvalue="Application.ComportamentoPorParametroTest03" />
@@ -143,6 +160,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarMethodReferenceTest01" />
         <item itemvalue="Application.ComportamentoPorParametroTest03" />
         <item itemvalue="Application.ComportamentoPorParametroTest02" />
         <item itemvalue="Application.ComportamentoPorParametroTest01" />
@@ -173,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694451353255</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: Comportamento por parametro">
+      <created>1694550436135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694550436135</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +229,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: first commit" />
+    <MESSAGE value="feat: Comportamento por parametro" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Comportamento por parametro" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

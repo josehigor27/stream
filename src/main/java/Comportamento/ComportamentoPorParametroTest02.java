@@ -18,7 +18,7 @@ public class ComportamentoPorParametroTest02 {
             }
         }));
         //Sout utilizando lambdas
-        System.out.println(filter(cars, (Car car) -> car.getColor().equals("red")));
+        System.out.println(filter(cars, car -> car.getColor().equals("red")));
 
     }
 
