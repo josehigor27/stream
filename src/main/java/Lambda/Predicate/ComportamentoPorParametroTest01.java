@@ -1,4 +1,4 @@
-package Comportamento;
+package Lambda.Predicate;
 
 import java.util.ArrayList;
 import java.util.List;

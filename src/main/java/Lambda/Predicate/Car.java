@@ -1,4 +1,4 @@
-package Comportamento;
+package Lambda.Predicate;
 
 public class Car {
    private String name = "Audi";

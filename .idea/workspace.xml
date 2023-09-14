@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c0db16d-2685-446a-90a2-1f97b3649941" name="Changes" comment="feat: Comportamento por parametro">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Teste/Teste01/Main.java" afterDir="false" />
+    <list default="true" id="1c0db16d-2685-446a-90a2-1f97b3649941" name="Changes" comment="feat: Testando funções lambdas e Method Reference">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Comportamento/ComportamentoPorParametroTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Comportamento/ComportamentoPorParametroTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Comportamento/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambda/Predicate/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Comportamento/CarPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambda/Predicate/CarPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Comportamento/ComportamentoPorParametroTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambda/Predicate/ComportamentoPorParametroTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Comportamento/ComportamentoPorParametroTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambda/Predicate/ComportamentoPorParametroTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Comportamento/ComportamentoPorParametroTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambda/Predicate/ComportamentoPorParametroTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Teste/Teste03/CarTestFunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teste/Teste03/CarTestFunctionalInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +67,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lambda.Consumer" />
       <recent name="Comportamento" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarMethodReferenceTest01">
+  <component name="RunManager" selected="Application.ConsumerTest02">
     <configuration name="CarMethodReferenceTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -83,29 +87,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComportamentoPorParametroTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Comportamento.ComportamentoPorParametroTest01" />
-      <module name="Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Comportamento.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ComportamentoPorParametroTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Comportamento.ComportamentoPorParametroTest02" />
+      <option name="MAIN_CLASS_NAME" value="Predicate.ComportamentoPorParametroTest02" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Comportamento.*" />
+          <option name="PATTERN" value="Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +105,11 @@
     <configuration name="ComportamentoPorParametroTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Comportamento.ComportamentoPorParametroTest03" />
+      <option name="MAIN_CLASS_NAME" value="Predicate.ComportamentoPorParametroTest03" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Comportamento.*" />
+          <option name="PATTERN" value="Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,14 +117,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsumerTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Teste.Teste02.Main" />
+      <option name="MAIN_CLASS_NAME" value="Lambda.Consumer.ConsumerTest01" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Teste.Teste02.*" />
+          <option name="PATTERN" value="Lambda.Consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Lambda.Consumer.ConsumerTest02" />
+      <module name="Streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lambda.Consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,19 +156,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ConsumerTest01" />
+      <item itemvalue="Application.ConsumerTest02" />
       <item itemvalue="Application.CarMethodReferenceTest01" />
-      <item itemvalue="Application.ComportamentoPorParametroTest01" />
       <item itemvalue="Application.ComportamentoPorParametroTest02" />
       <item itemvalue="Application.ComportamentoPorParametroTest03" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerTest02" />
+        <item itemvalue="Application.ConsumerTest01" />
         <item itemvalue="Application.CarMethodReferenceTest01" />
         <item itemvalue="Application.ComportamentoPorParametroTest03" />
         <item itemvalue="Application.ComportamentoPorParametroTest02" />
-        <item itemvalue="Application.ComportamentoPorParametroTest01" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694550436135</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Testando funções lambdas e Method Reference">
+      <created>1694613045613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694613045613</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +241,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: first commit" />
     <MESSAGE value="feat: Comportamento por parametro" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Comportamento por parametro" />
+    <MESSAGE value="feat: Testando funções lambdas e Method Reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Testando funções lambdas e Method Reference" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

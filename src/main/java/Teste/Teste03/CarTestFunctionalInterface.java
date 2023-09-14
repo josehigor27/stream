@@ -1,6 +1,6 @@
 package Teste.Teste03;
 
-import Comportamento.Car;
+import Lambda.Predicate.Car;
 
 @FunctionalInterface
 public interface CarTestFunctionalInterface {

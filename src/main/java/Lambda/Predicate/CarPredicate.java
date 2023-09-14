@@ -1,4 +1,4 @@
-package Comportamento;
+package Lambda.Predicate;
 
 @FunctionalInterface
 public interface CarPredicate {
