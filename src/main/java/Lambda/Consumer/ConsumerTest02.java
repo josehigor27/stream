@@ -8,10 +8,10 @@ public class ConsumerTest02 {
 
 
     public static void main(String[] args) {
-        System.out.println("---------------DEVDOJO--------------------");
+
         List <Integer> integers = List.of(1,2,3,4,5,6,7);
         forEach(integers,(Integer i) -> System.out.println(i));
-        System.out.println("---------------DEVDOJO--------------------");
+        System.out.println("-----------------CURSO DIO-------------------------");;
         integers.stream().forEach(new Consumer<Integer>() {
             @Override
             public void accept(Integer integer) {
