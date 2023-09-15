@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c0db16d-2685-446a-90a2-1f97b3649941" name="Changes" comment="feat: Function Test">
+    <list default="true" id="1c0db16d-2685-446a-90a2-1f97b3649941" name="Changes" comment="feat: Exercícios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lambda/BinaryOperator/BinaryOperatorTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambda/BinaryOperator/BinaryOperatorTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lambda/Consumer/ConsumerTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambda/Consumer/ConsumerTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Comportamento/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Comportamento/CarPredicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Comportamento/ComportamentoPorParametroTest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Comportamento/ComportamentoPorParametroTest02$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Comportamento/ComportamentoPorParametroTest02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Comportamento/ComportamentoPorParametroTest03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Teste/Teste03/CarTestFunctionalInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Teste/Teste03/CarTestFunctionalInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Desafios/Desafio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Desafios/Desafio1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,21 +62,22 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lambda.BinaryOperator" />
       <recent name="Lambda.Function" />
       <recent name="Lambda.Supplier" />
       <recent name="Lambda.Consumer" />
       <recent name="Comportamento" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryOperatorTest04">
-    <configuration name="BinaryOperatorTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Desafio5">
+    <configuration name="Desafio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Lambda.BinaryOperator.BinaryOperatorTest01" />
+      <option name="MAIN_CLASS_NAME" value="Desafios.Desafio1" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.BinaryOperator.*" />
+          <option name="PATTERN" value="Desafios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,14 +85,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryOperatorTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Desafio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Lambda.BinaryOperator.BinaryOperatorTest02" />
+      <option name="MAIN_CLASS_NAME" value="Desafios.Desafio2" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.BinaryOperator.*" />
+          <option name="PATTERN" value="Desafios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,14 +100,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryOperatorTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Desafio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Lambda.BinaryOperator.BinaryOperatorTest03" />
+      <option name="MAIN_CLASS_NAME" value="Desafios.Desafio3" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.BinaryOperator.*" />
+          <option name="PATTERN" value="Desafios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,14 +115,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryOperatorTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Desafio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Lambda.BinaryOperator.BinaryOperatorTest04" />
+      <option name="MAIN_CLASS_NAME" value="Desafios.Desafio4" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.BinaryOperator.*" />
+          <option name="PATTERN" value="Desafios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,14 +130,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Desafio5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Lambda.Function.FunctionTest04" />
+      <option name="MAIN_CLASS_NAME" value="Desafios.Desafio5" />
       <module name="Streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.Function.*" />
+          <option name="PATTERN" value="Desafios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryOperatorTest01" />
-      <item itemvalue="Application.BinaryOperatorTest02" />
-      <item itemvalue="Application.BinaryOperatorTest03" />
-      <item itemvalue="Application.BinaryOperatorTest04" />
-      <item itemvalue="Application.FunctionTest04" />
+      <item itemvalue="Application.Desafio1" />
+      <item itemvalue="Application.Desafio2" />
+      <item itemvalue="Application.Desafio3" />
+      <item itemvalue="Application.Desafio4" />
+      <item itemvalue="Application.Desafio5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryOperatorTest04" />
-        <item itemvalue="Application.BinaryOperatorTest03" />
-        <item itemvalue="Application.BinaryOperatorTest02" />
-        <item itemvalue="Application.BinaryOperatorTest01" />
-        <item itemvalue="Application.FunctionTest04" />
+        <item itemvalue="Application.Desafio5" />
+        <item itemvalue="Application.Desafio4" />
+        <item itemvalue="Application.Desafio3" />
+        <item itemvalue="Application.Desafio2" />
+        <item itemvalue="Application.Desafio1" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694722057587</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat:.">
+      <created>1694795412203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694795412203</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: Exercícios">
+      <created>1694798043414</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694798043414</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +286,10 @@
     <MESSAGE value="feat: Consumer" />
     <MESSAGE value="feat: Supplier Test" />
     <MESSAGE value="feat: Function Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Function Test" />
+    <MESSAGE value="feat: BinaryOperator Test" />
+    <MESSAGE value="feat:." />
+    <MESSAGE value="feat: Exercícios" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Exercícios" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
